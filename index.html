@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p>Cadastre-se</p>
+        </header>
+        
+        <div id="form">
+            <section>
+                <label>Nome </label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+
+                <label>Sobrenome</label>
+                <input type="text" name="surname" id="surname" placeholder="Digite seu sobrenome" required>
+
+                <label>Data de nascimento </label>
+                <input type="date" name="dateofbirth" id="dateofbirth"  required>
+
+                <label>Digite seu E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+            </section>
+
+            <div class="botoes">
+                <button type="button"onclick="limparFormulario()">Limpar</button>
+                <button type="button"onclick="enviarFormulario()">Enviar</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

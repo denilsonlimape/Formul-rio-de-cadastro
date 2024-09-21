@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header{
+    background:linear-gradient(120deg, #3acbf0 0%, #8bb0ff 100%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+ p{
+    margin-top: 15px;
+    background:linear-gradient(120deg, #3acbf0 0%, #8bb0ff 100%);
+    width: 400px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container{
+    background-color: #bcb8b8;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    
+}
+
+#form{
+    padding: 10px;
+}
+
+#form section p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#form section{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+#form label{
+    font-weight: bold;
+    margin: 10px;
+}
+
+#form input{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.botoes{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botoes button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5;
+}
+
+.botoes button:hover{
+    background:linear-gradient(120deg, #3acbf0 0%, #8bb0ff 100%);
+}
+
+
+
